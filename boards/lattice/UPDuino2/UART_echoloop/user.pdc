@@ -1,0 +1,3 @@
+ldc_set_location -site {15} [get_ports rx]
+ldc_set_location -site {14} [get_ports tx]
+ldc_set_location -site {16} [get_ports flash_ss]
