@@ -177,13 +177,14 @@ int main()
 
 	// Todo copy RISC-V code to eSRAM if desired so
 
-    MSS_UART_polled_tx_string( &g_mss_uart0, "RISC-V SoftCPU is running\n\r\0");
 
-    for (i=0; i < 100; i++)
+
+    for (i=0; i < 10; i++)
     {
 		delay();
+		alt_putchar('.');
     }
-
+    MSS_UART_polled_tx_string( &g_mss_uart0, " -> RISC-V SoftCPU is running\n\r\0");
 
 
 	// We should sleep here a bit to let uart string to come out from TXD line...
