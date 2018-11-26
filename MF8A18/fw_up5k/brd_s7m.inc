@@ -1,0 +1,4 @@
+
+const UART_BAUDCONST = 143; // 115200 @50MHz
+
+Const SPI_ADDR3 = $00

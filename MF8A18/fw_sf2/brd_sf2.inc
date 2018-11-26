@@ -1,0 +1,3 @@
+
+const UART_BAUDCONST = 143; // 115200 @50MHz
+
