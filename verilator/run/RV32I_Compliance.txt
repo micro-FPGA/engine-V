@@ -1,0 +1,3 @@
+Vergleichen der Dateien ..\SIGNATURES\I-ADD-01.signature und ..\REFERENCES\I-ADD-01.REFERENCE_OUTPUT
+FC: Keine Unterschiede gefunden
+
