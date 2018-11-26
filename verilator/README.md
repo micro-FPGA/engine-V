@@ -6,10 +6,10 @@ Some DLL and EXE files are compressed with 7zip, they should be unzipped into th
 
 mingw is needed to recompile the verilated executables
  
-if mingw is not installed ready made executables can be used (unzip in the ./dll folder )
+if mingw is not installed ready made executables can be used (unzip DLL's in the ./dll folder!)
 
 
 Folders
 
-run	- scripts to run Zephyr and RV32I Compliance tests for the Lattice, SPI Boot
-run_mss	- scripts to run Zephyr and RV32I Compliance tests for Microsemi, M3 Assisted boot from eSRAM
+>run	- scripts to run Zephyr and RV32I Compliance tests for the Lattice, SPI Boot
+>run_mss	- scripts to run Zephyr and RV32I Compliance tests for Microsemi, M3 Assisted boot from eSRAM
