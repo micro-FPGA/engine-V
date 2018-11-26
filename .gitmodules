@@ -1,3 +1,9 @@
 [submodule "riscv-compliance"]
 	path = riscv-compliance
 	url = https://github.com/micro-FPGA/riscv-compliance.git
+[submodule "zephyr"]
+	path = zephyr
+	url = https://github.com/micro-FPGA/zephyr
+[submodule "riscv-tests"]
+	path = riscv-tests
+	url = https://github.com/micro-FPGA/riscv-tests.git
