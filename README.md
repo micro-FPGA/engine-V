@@ -1,4 +1,4 @@
 # engine-V
-Will be updated within last hours before deadline, please do not fetch earlier!
+Files are pushed, but readme comes just before deadline...
 
 https://riscv.org/2018contest/
