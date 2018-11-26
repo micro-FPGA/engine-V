@@ -1,0 +1,117 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Nov 25 2018 15:57:36
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40UP
+    Device:        iCE40UP5K
+    Package:       UWG30
+
+Design statistics:
+------------------
+    FFs:                  93
+    LUTs:                 306
+    RAMs:                 4
+    IOBs:                 7
+    GBs:                  1
+    PLLs:                 0
+    Warm Boots:           0
+    SPIs:                 0
+    I2Cs:                 0
+    HFOSCs:               0
+    LFOSCs:               0
+    RGBA_DRVs:            0
+    LEDDA_IPs:            0
+    DSPs:                 0
+    SPRAMs:               1
+    FILTER_50NSs:         0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 307/5280
+        Combinational Logic Cells: 214      out of   5280      4.05303%
+        Sequential Logic Cells:    93       out of   5280      1.76136%
+        Logic Tiles:               54       out of   660       8.18182%
+    Registers: 
+        Logic Registers:           93       out of   5280      1.76136%
+        IO Registers:              1        out of   480       0.208333
+    Block RAMs:                    4        out of   30        13.3333%
+    Warm Boots:                    0        out of   1         0%
+    SPIs:                          0        out of   2         0%
+    I2Cs:                          0        out of   2         0%
+    HFOSCs:                        0        out of   1         0%
+    LFOSCs:                        0        out of   1         0%
+    RGBA_DRVs:                     0        out of   1         0%
+    LEDDA_IPs:                     0        out of   1         0%
+    DSPs:                          0        out of   8         0%
+    SPRAMs:                        1        out of   4         25%
+    FILTER_50NSs:                  0        out of   2         0%
+    Pins:
+        Input Pins:                3        out of   21        14.2857%
+        Output Pins:               4        out of   21        19.0476%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   1         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 2        out of   7         28.5714%
+    Bank 2: 5        out of   14        35.7143%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function       Signal Name 
+    ----------  ---------  -----------  -------  -------  -----------       ----------- 
+    B3          Input      SB_LVCMOS    No       0        Simple Input      CLK         
+    C3          Input      SB_LVCMOS    Yes      2        Input Registered  RSTn        
+    E1          Input      SB_LVCMOS    No       2        Simple Input      FLASH_MISO  
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function       Signal Name 
+    ----------  ---------  -----------  -------  -------  -----------       ----------- 
+    A1          Output     SB_LVCMOS    No       0        Simple Output     UART_TXD    
+    C1          Output     SB_LVCMOS    No       2        Simple Output     FLASH_CS    
+    D1          Output     SB_LVCMOS    No       2        Simple Output     FLASH_SCK   
+    F1          Output     SB_LVCMOS    No       2        Simple Output     FLASH_MOSI  
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name
+    -------------  -------  ---------  ------  -----------
+    7              0        IO         101     CLK_c  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 8 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile     2595 out of 110555      2.34725%
+                          Span 4      642 out of  23008      2.79033%
+                         Span 12       47 out of   4464      1.05287%
+                  Global network        1 out of      8      12.5%
+      Vertical Inter-LUT Connect       68 out of   4620      1.47186%
+

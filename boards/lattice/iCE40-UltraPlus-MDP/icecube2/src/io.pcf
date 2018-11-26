@@ -1,0 +1,26 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Nov 25 2018 15:57:24
+
+# Family & Device:    iCE40UP5K
+
+# Package:            UWG30
+
+# ##############################################################################
+
+###MergeFF List 1
+set_io_ff RSTn -in ON
+
+###IOSet List 7
+set_io FLASH_MOSI F1 -io_std SB_LVCMOS -pullup no
+set_io CLK B3 -io_std SB_LVCMOS -pullup no
+set_io FLASH_CS C1
+set_io FLASH_MISO E1 -io_std SB_LVCMOS -pullup no
+set_io FLASH_SCK D1 -io_std SB_LVCMOS -pullup no
+set_io RSTn C3 -io_std SB_LVCMOS -pullup yes -pullup_resistor 3P3K
+set_io UART_TXD A1
+
