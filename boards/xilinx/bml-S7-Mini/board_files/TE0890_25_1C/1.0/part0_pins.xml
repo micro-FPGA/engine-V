@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2018.10.24-->
+<!-- ##################################################################### -->
+<!-- ## replace part_name with correct FPGA PART from board.xml-->
+<part_info part_name="xc7s25ftgb196-1">
+  <pins>
+    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+    <pin index="0" name="sys_clk" iostandard="LVCMOS33" loc="L5"/>
+    <pin index="1" name="led1" iostandard="LVCMOS33" loc="D14"/>
+    <pin index="2" name="led2" iostandard="LVCMOS33" loc="C14"/>
+
+    <pin index="3" name="spi_io0_i" iostandard="LVCMOS33" loc="B11"/>
+    <pin index="4" name="spi_io1_i" iostandard="LVCMOS33" loc="B12"/>
+    <pin index="5" name="spi_io2_i" iostandard="LVCMOS33" loc="D10"/>
+    <pin index="6" name="spi_io3_i" iostandard="LVCMOS33" loc="C10"/>
+    <pin index="7" name="spi_ss_i" iostandard="LVCMOS33" loc="C11"/>
+
+  </pins>
+</part_info>
