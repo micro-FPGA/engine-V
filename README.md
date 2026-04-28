@@ -13,4 +13,7 @@ https://riscv.org/2018contest/  the above weblink has become 404 and is not save
 see here is some info still online:
 https://riscv.org/riscv-news/2018/12/risc-v-softcpu-contest-winners-demonstrate-cutting-edge-risc-v-implementations-for-fpgas/ this link is now also 404
 
+some info is still available online:
+https://www.microcontrollertips.com/risc-v-softcpu-contest-winners-announced/
+
 readme.pdf was pushed to this repo on 26 November at 22:29 PST ahead of contest deadline and was done so in good faith it is part of the contest entry
